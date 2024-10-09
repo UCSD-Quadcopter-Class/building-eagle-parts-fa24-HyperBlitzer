@@ -82,14 +82,14 @@
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.12" layer="51"/>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.12" layer="51"/>
 <wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.12" layer="51"/>
-<text x="0" y="-1" size="0.75" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<text x="0" y="1" size="0.75" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-1.9" y1="0.9" x2="-1.9" y2="-0.9" width="0.127" layer="39"/>
-<wire x1="-1.9" y1="-0.9" x2="1.9" y2="-0.9" width="0.127" layer="39"/>
-<wire x1="1.9" y1="-0.9" x2="1.9" y2="0.9" width="0.127" layer="39"/>
-<wire x1="1.9" y1="0.9" x2="-1.9" y2="0.9" width="0.127" layer="39"/>
+<text x="0" y="-1.5" size="0.9" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.5" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.4" y1="1.4" x2="-2.4" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-2.4" y1="-1.4" x2="2.4" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="1.4" width="0.127" layer="39"/>
+<wire x1="2.4" y1="1.4" x2="-2.4" y2="1.4" width="0.127" layer="39"/>
 </package>
-<package name="RED_LED">
+<package name="LED">
 <description>Chip LED, 2.00 X 1.25 X 1.10 mm body
  &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
 <smd name="A" x="-0.925" y="0" dx="0.9666" dy="1.3666" layer="1"/>
@@ -101,30 +101,30 @@
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.12" layer="51"/>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.12" layer="51"/>
 <wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.12" layer="51"/>
-<text x="0" y="1.1323" size="0.75" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.1323" size="0.75" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<wire x1="1.9" y1="1.3" x2="1.9" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="1.9" y1="-1.3" x2="-1.9" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="-1.9" y1="-1.3" x2="-1.9" y2="1.3" width="0.127" layer="39"/>
-<wire x1="-1.9" y1="1.3" x2="1.9" y2="1.3" width="0.127" layer="39"/>
+<text x="0" y="1.1323" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.1323" size="0.9" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="1.9" y1="1.4" x2="1.9" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="1.9" y1="-1.4" x2="-1.9" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-1.9" y1="-1.4" x2="-1.9" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-1.9" y1="1.4" x2="1.9" y2="1.4" width="0.127" layer="39"/>
 </package>
 <package name="MOSFET">
-<smd name="D" x="1.25" y="0" dx="2.05" dy="2.9" layer="1" stop="no" cream="no"/>
-<smd name="G" x="-1" y="1" dx="1.5" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="S" x="-1" y="-0.9" dx="1.5" dy="1" layer="1" stop="no" cream="no"/>
-<wire x1="-2.4" y1="1.9" x2="2.9" y2="1.9" width="0.127" layer="39"/>
-<wire x1="2.9" y1="1.9" x2="2.9" y2="-1.9" width="0.127" layer="39"/>
-<wire x1="2.9" y1="-1.9" x2="-2.4" y2="-1.9" width="0.127" layer="39"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.127" layer="39"/>
-<text x="0" y="2" size="0.75" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.36" y1="0.72" x2="-0.636" y2="1.279" layer="29"/>
-<rectangle x1="-1.35" y1="-1.22" x2="-0.626" y2="-0.661" layer="31"/>
-<rectangle x1="0.9" y1="-0.3" x2="1.624" y2="0.259" layer="31"/>
-<rectangle x1="-1.36" y1="0.72" x2="-0.636" y2="1.279" layer="31"/>
-<rectangle x1="0.9" y1="-0.3" x2="1.624" y2="0.259" layer="29"/>
-<rectangle x1="-1.35" y1="-1.22" x2="-0.626" y2="-0.661" layer="29"/>
+<smd name="D" x="-0.02" y="1.056" dx="2.05" dy="2.9" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="G" x="-1" y="-1" dx="1.5" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="S" x="1" y="-1" dx="1.5" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<text x="0" y="3" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.36" y1="-1.28" x2="-0.636" y2="-0.721" layer="29"/>
+<rectangle x1="-0.4" y1="0.8" x2="0.324" y2="1.359" layer="31"/>
+<rectangle x1="-1.36" y1="-1.28" x2="-0.636" y2="-0.721" layer="31"/>
+<rectangle x1="-0.4" y1="0.8" x2="0.324" y2="1.359" layer="29"/>
+<rectangle x1="0.64" y1="-1.28" x2="1.364" y2="-0.721" layer="29"/>
+<rectangle x1="0.64" y1="-1.28" x2="1.364" y2="-0.721" layer="31"/>
+<wire x1="-2.4" y1="2.9" x2="-2.4" y2="-2.4" width="0.127" layer="39"/>
+<wire x1="-2.4" y1="-2.4" x2="2.4" y2="-2.4" width="0.127" layer="39"/>
+<wire x1="2.4" y1="-2.4" x2="2.4" y2="2.9" width="0.127" layer="39"/>
+<wire x1="2.4" y1="2.9" x2="-2.4" y2="2.9" width="0.127" layer="39"/>
 </package>
-<package name="IMU">
+<package name="LSM6DS0">
 <smd name="6" x="0" y="-1" dx="0.25" dy="0.475" layer="1"/>
 <smd name="5" x="-0.5" y="-1" dx="0.25" dy="0.475" layer="1"/>
 <smd name="7" x="0.5" y="-1" dx="0.25" dy="0.475" layer="1"/>
@@ -139,15 +139,15 @@
 <smd name="10" x="1.1" y="0.2" dx="0.475" dy="0.25" layer="1"/>
 <smd name="9" x="1.1" y="-0.3" dx="0.475" dy="0.25" layer="1"/>
 <smd name="8" x="1.1" y="-0.8" dx="0.475" dy="0.25" layer="1"/>
-<wire x1="-1.9" y1="1.9" x2="-1.9" y2="-1.9" width="0.127" layer="39"/>
-<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="39"/>
-<wire x1="1.9" y1="-1.9" x2="1.9" y2="1.9" width="0.127" layer="39"/>
-<wire x1="1.9" y1="1.9" x2="-1.9" y2="1.9" width="0.127" layer="39"/>
-<text x="0" y="2" size="0.75" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.4" y1="2.4" x2="-2.4" y2="-2.4" width="0.127" layer="39"/>
+<wire x1="-2.4" y1="-2.4" x2="2.4" y2="-2.4" width="0.127" layer="39"/>
+<wire x1="2.4" y1="-2.4" x2="2.4" y2="2.4" width="0.127" layer="39"/>
+<wire x1="2.4" y1="2.4" x2="-2.4" y2="2.4" width="0.127" layer="39"/>
+<text x="0" y="2.5" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <circle x="-1.584815625" y="1.101221875" radius="0.0704375" width="0.127" layer="21"/>
 <rectangle x1="-1.1" y1="-1.1" x2="1.1" y2="1.1" layer="41"/>
-<rectangle x1="-1.8" y1="-1.8" x2="1.8" y2="1.8" layer="42"/>
-<rectangle x1="-1.8" y1="-1.8" x2="1.8" y2="1.8" layer="43"/>
+<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="42"/>
+<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="43"/>
 </package>
 </packages>
 <symbols>
@@ -216,8 +216,6 @@
 <pin name="SCL" x="0" y="17.78" visible="pad" length="middle" rot="R270"/>
 <pin name="CS" x="5.08" y="17.78" visible="pad" length="middle" rot="R270"/>
 <pin name="VDDIO" x="-5.08" y="-17.78" visible="pad" length="middle" rot="R90"/>
-<pin name="GND1" x="0" y="-17.78" visible="pad" length="middle" rot="R90"/>
-<pin name="GND2" x="5.08" y="-17.78" visible="pad" length="middle" rot="R90"/>
 <pin name="SDO/SA0" x="-15.24" y="7.62" visible="pad" length="middle"/>
 <pin name="SDX" x="-15.24" y="2.54" visible="pad" length="middle"/>
 <pin name="SCX" x="-15.24" y="-2.54" visible="pad" length="middle"/>
@@ -227,6 +225,7 @@
 <pin name="INT2" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
 <pin name="VDD" x="15.24" y="-7.62" visible="pad" length="middle" rot="R180"/>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GND" x="2.54" y="-17.78" visible="pad" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -255,7 +254,7 @@
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-RED_LED" package="RED_LED">
+<device name="-RED_LED" package="LED">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -296,11 +295,10 @@
 <gate name="G$1" symbol="MOTIONSENSOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-IMU" package="IMU">
+<device name="-LSM6DS0" package="LSM6DS0">
 <connects>
 <connect gate="G$1" pin="CS" pad="12"/>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6 7"/>
 <connect gate="G$1" pin="INT1" pad="4"/>
 <connect gate="G$1" pin="INT2" pad="9"/>
 <connect gate="G$1" pin="OCS_AUX" pad="10"/>
